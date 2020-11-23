@@ -1,0 +1,61 @@
+* {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+#content-background {
+    background-image: url("images/contentBackground.jpg");
+}
+#media-background {
+    background-image: url("images/mediaBackground.jpg");
+}
+/* Navigation Bar -------------------------------------------------- */
+
+ul.navigationBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menuItem {
+    float: left;
+}
+
+#menuItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#menuItem a:hover {
+    background-color: #111;
+}
+/* Add your css below -------------------------------------- */
+
+/* Contact CSS  -------------------------------------- */
+.formContainer {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding: 10px;
+}
+
+.downloadContainer {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    display: flex;
+    justify-content: center;
+}
+
+.downloadImage {
+    height: 400px;
+}

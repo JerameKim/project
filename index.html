@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="styles.css"
+            media="screen"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap"
+            rel="stylesheet"
+        />
+
+        <script
+            src="https://kit.fontawesome.com/d635ebcfec.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Fake Travel Company</title>
+    </head>
+
+    <body>
+        <!-- Horizontal Menu -->
+
+        <ul class="navigationBar">
+            <li id="menuItem"><a href="index.html">Home</a></li>
+            <li id="menuItem"><a href="content.html">Content</a></li>
+            <li id="menuItem"><a href="media.html">Media</a></li>
+            <li id="menuItem"><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Slideshow  -->
+        <div class="slideshow">
+            <a href="index.html">
+                <div class="slide">
+                    <div class="slideHeaders">
+                        <h1 class="navigationHeader">
+                            Welcome to Camping Planner
+                        </h1>
+                        <h2 class="navigationSubheader">
+                            Click the images to navigate to a subpage
+                        </h2>
+                    </div>
+                    <img class="slide-image" src="images/homeSlide.jpg" />
+                    <div class="caption-text">
+                        "Naked Nature" by AzNaketure is licensed with CC
+                        BY-NC-ND 2.0
+                    </div>
+                </div>
+            </a>
+            <a href="content.html">
+                <div class="slide">
+                    <div class="slideHeaders">
+                        <h1 class="navigationHeader">Content</h1>
+                        <h2 class="navigationSubheader">
+                            See some of our available Excursions
+                        </h2>
+                    </div>
+                    <img class="slide-image" src="images/contentSlide.jpg" />
+                    <div class="caption-text">
+                        "Mountains" by Kevin Steinkamp is licensed with CC
+                        BY-NC-SA 2.0
+                    </div>
+                </div>
+            </a>
+            <a href="media.html">
+                <div class="slide">
+                    <div class="slideHeaders">
+                        <h1 class="navigationHeader">Media</h1>
+                        <h2 class="navigationSubheader">
+                            View some media from our experiences
+                        </h2>
+                    </div>
+                    <img class="slide-image" src="images/mediaSlide.jpg" />
+                    <div class="caption-text">
+                        "Nice hat" by Jim_Nix is licensed with CC BY-NC-SA 2.0
+                    </div>
+                </div>
+            </a>
+            <a href="contact.html">
+                <div class="slide">
+                    <div class="slideHeaders">
+                        <h1 class="navigationHeader">Contact Us</h1>
+                        <h2 class="navigationSubheader">Plan a trip with us</h2>
+                    </div>
+                    <img class="slide-image" src="images/contactUsSlide.jpg" />
+                    <div class="caption-text">
+                        "Contact Us" by Shahid Abdullah is marked under CC0 1.0
+                    </div>
+                </div>
+            </a>
+
+            <i class="fas fa-arrow-left" onclick="stepBackward()"></i>
+
+            <i class="fas fa-arrow-right" onclick="stepForward()"></i>
+
+            <div class="marker-container">
+                <i class="fas fa-circle" onclick="slideAt(1)"></i>
+                <i class="fas fa-circle unmarked" onclick="slideAt(2)"></i>
+                <i class="fas fa-circle unmarked" onclick="slideAt(3)"></i>
+                <i class="fas fa-circle unmarked" onclick="slideAt(4)"></i>
+            </div>
+        </div>
+
+        <script src="slideshow.js"></script>
+    </body>
+</html>

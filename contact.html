@@ -1,0 +1,83 @@
+<head>
+    <html lang="en">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="styles.css"
+            media="screen"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap"
+            rel="stylesheet"
+        />
+        <script src="contact.js"></script>
+        <title>Fake Travel Company</title>
+
+        <body id="media-background">
+            <ul class="navigationBar">
+                <li id="menuItem"><a href="index.html">Home</a></li>
+                <li id="menuItem"><a href="content.html">Content</a></li>
+                <li id="menuItem"><a href="media.html">Media</a></li>
+                <li id="menuItem"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="formContainer">
+                <div>
+                    <h1 style="padding-right: 40px">
+                        Contact us to book a trip!
+                    </h1>
+                </div>
+                <div>
+                    <form>
+                        <div class="input">
+                            <input type="text" placeholder="Name" id="name" />
+                        </div>
+
+                        <div class="input">
+                            <input
+                                type="email"
+                                placeholder="Email"
+                                id="email"
+                            />
+                        </div>
+
+                        <div class="input">
+                            <textarea
+                                name="personalityTraits"
+                                id="personalityTraits"
+                                cols="30"
+                                rows="3"
+                                placeholder="Tell us about your personality so we can best match you to a trip."
+                            ></textarea>
+                        </div>
+
+                        <div class="input">
+                            <input type="submit" value="Submit" id="postBtn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="downloadContainer">
+                <div>
+                    <h2 style="padding-right: 40px">
+                        Please download the required waiver
+                    </h2>
+                    <h3 style="padding-right: 40px">
+                        Press the image to download
+                    </h3>
+                </div>
+
+                <a download="SafetyWavier.pdf" href="/images/waiver.pdf">
+                    <img
+                        src="/images/waiver.jpg"
+                        alt="Safety Waiver Photo"
+                        class="downloadImage"
+                    />
+                </a>
+            </div>
+        </body>
+    </html>
+</head>

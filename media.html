@@ -1,0 +1,124 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="styles.css"
+            media="screen"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap"
+            rel="stylesheet"
+        />
+        <script src="media.js"></script>
+        <title>Fake Travel Company</title>
+    </head>
+
+    <div id="horizontalMenu"></div>
+    <body id="media-background">
+        <ul class="navigationBar">
+            <li id="menuItem"><a href="index.html">Home</a></li>
+            <li id="menuItem"><a href="content.html">Content</a></li>
+            <li id="menuItem"><a href="media.html">Media</a></li>
+            <li id="menuItem"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="tabDisplay">
+            <!-- Tab Selector -->
+            <div class="tab">
+                <button
+                    class="tabLink active"
+                    onclick="changeTab(event, 'tour1')"
+                >
+                    Four Day Tour
+                </button>
+                <button class="tabLink" onclick="changeTab(event, 'tour2')">
+                    Six Year Tour
+                </button>
+            </div>
+
+            <!-- Four Day Tour Content -->
+
+            <div id="tour1" class="tabContent tab1">
+                <h2>Four Day Tour</h2>
+
+                <ul>
+                    <li>Bellvue</li>
+                    <ul>
+                        <li>Frolick in the Forest</li>
+                        <li>March in the Meadows</li>
+                        <li>Dance in the Daisies</li>
+                    </ul>
+                    <li>Miami</li>
+                    <ul>
+                        <li>Visit a Casino</li>
+                        <li>Tan on the Beach</li>
+                    </ul>
+                    <li>Sydney</li>
+                    <ul>
+                        <li>Eat some berries</li>
+                    </ul>
+                </ul>
+                <h4>Good Natured Fun</h4>
+                <ul>
+                    <li>
+                        No dangers to be found, everyone is guaranteed their
+                        safety
+                    </li>
+                    <ul>
+                        <li>First Aid is available</li>
+                    </ul>
+                </ul>
+                <ul>
+                    Comfotable Price
+                    <ul>
+                        <li>Only $800 for the entire experience!</li>
+                    </ul>
+                </ul>
+
+                <a href="contact.html"
+                    >Contact Us to schedule and appointment!</a
+                >
+            </div>
+
+            <!-- Six Year Tour Content -->
+            <div id="tour2" class="tabContent tab2">
+                <h2>Six Year Tour</h2>
+                <h3>Antarctica</h3>
+
+                <ul>
+                    <!-- <li>Antarctica</li> -->
+                    <li>Icy Tundra</li>
+                    <ul>
+                        <li>Glaciers Everywhere</li>
+                        <li>Ice Cold Air Always</li>
+                    </ul>
+                    <li>Snow Mountain</li>
+                    <ul>
+                        <li>Eat some ice</li>
+                    </ul>
+                </ul>
+                <h4>Very Dangerous</h4>
+                <ul>
+                    <li>Injusry guaranteed</li>
+                    <ul>
+                        <li>First Aid is periodically available</li>
+                    </ul>
+                </ul>
+                <ul>
+                    Psychotic Price
+                    <ul>
+                        <li>$5000 if you survive</li>
+                        <li>$8000 if you die</li>
+                    </ul>
+                </ul>
+
+                <a href="contact.html"
+                    >Contact Us to schedule and appointment!</a
+                >
+            </div>
+        </div>
+    </body>
+</html>
